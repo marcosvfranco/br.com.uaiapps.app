@@ -1,0 +1,57 @@
+<html> 
+    <head> 
+        <title>Bebidas</title> 
+        <meta charset ="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+        <link rel="stylesheet" href="themes/theme-2.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="jquery/jquery.mobile.structure-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/mod.css">
+        <script src="jquery/jquery-1.11.2.js"></script>
+        <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/mod.js"></script>
+    </head> 
+    <body> 
+
+
+        <!--Page 2 -->
+        <div data-role="page" id="bebidas" class="main-page" data-theme="b">
+            <div data-role="header" data-position="fixed" data-theme="b" role="banner" class="ui-header ui-bar-a ui-header-fixed slidedown">
+                <a href="menu.html" data-icon="back" class="ui-btn-left">Menu</a>
+                <h1>Bebidas</h1>
+            </div><!-- /header -->
+
+            <div data-role="content" data-external-page="true">	
+                <ul data-role="listview" data-inset="true" data-theme="g">
+                    <li><a href="#">
+                            <img src="/img/coca_cola_lata.jpg">
+                            <h2>Coca Cola</h2>
+                            <p>Lata</p></a>
+                    </li>
+                    <li><a href="#">
+                            <img src="/img/heineken.png">
+                            <h2>Heineken</h2>
+                            <p>Long Neck</p></a>
+                    </li>
+                    <li><a href="#">
+                            <img src="/img/suco.jpg">
+                            <h2>Sucos</h2>
+                            <p>Sabores</p></a>
+                    </li>
+                </ul>		
+            </div><!-- /content -->
+
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-id="menuFooter" >
+                    <ul>
+                        <li><a href="pizzas.html" data-role="button" data-icon="pizza" data-iconpos="top">Pizzas</a></li>
+                        <li><a href="bebidas.html" class="ui-btn-active" data-role="button" data-icon="drink" data-iconpos="top">Bebidas</a></li>
+                        <li><a href="porcoes.html" data-role="button" data-icon="food" data-iconpos="top">Porções</a></li>
+                    </ul>
+                </div>
+            </div><!-- /footer -->
+        </div>
+
+    </body>
+</html>
